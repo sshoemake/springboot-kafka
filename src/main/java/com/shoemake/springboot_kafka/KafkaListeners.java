@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class KafkaListeners {
 
-    @KafkaListener(
-        topics = "foobar",
+     @KafkaListener(
+        topics = "#{'${spring.kafka.template.default-topic}'}",
         groupId = "group-1"
     )
     void listener(String data) {
