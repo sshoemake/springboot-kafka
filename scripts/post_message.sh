@@ -1,1 +1,1 @@
-curl -H "Content-Type: application/json" -d @./message.json -X POST "http://localhost:8080/api/v1/messages"
+curl -H "Content-Type: application/json" -d @./message.json -X POST "http://localhost:8080/api/v1/TestResults"

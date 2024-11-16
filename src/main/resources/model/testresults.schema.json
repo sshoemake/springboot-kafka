@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema",
+    "type": "object",
+    "properties": {
+        "name": {
+        "type": "string"
+        },
+        "socialSecurityNumber": {
+        "type": "string"
+        },
+        "age": {
+        "type": "number"
+        }
+    },
+    "required": [
+        "name",
+        "socialSecurityNumber",
+        "age"
+    ]
+}
