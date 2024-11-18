@@ -1,4 +1,4 @@
-package com.shoemake.springboot_kafka;
+package com.shoemake.springboot_kafka.controller;
 
 import java.io.InputStream;
 import java.util.Set;
@@ -11,15 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-// import com.fasterxml.jackson.databind.jsonschema.JsonSchema;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.networknt.schema.JsonSchema;
 import com.networknt.schema.JsonSchemaFactory;
 import com.networknt.schema.SpecVersion;
 import com.networknt.schema.ValidationMessage;
-import com.shoemake.springboot_kafka.result.Result;
+import com.shoemake.springboot_kafka.model.Result;
 
 import lombok.extern.slf4j.Slf4j;
 

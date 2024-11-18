@@ -1,4 +1,4 @@
-package com.shoemake.springboot_kafka.result;
+package com.shoemake.springboot_kafka.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
